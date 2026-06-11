@@ -1,0 +1,141 @@
+# Current time Fri Feb 13 17:21:24 2026
+# Program = hdlclient
+# Id = "2024.2"
+# Version = "2024.05"
+# Date = "May 20 2024"
+# Platform = "linux_x86_64"
+# Signature = 559b996fef614899ed381dffdfbe94d0
+# lib_addresses = libc.so.6=0x00007ffff3b41000,libQt5Core.so.5=0x00007ffff6929000,libQt5XcbQpa.so.5=0x00007ffff572d000,libQt5Widgets.so.5=0x00007ffff5816000,libQt5Gui.so.5=0x00007ffff6031000
+# End of Stack Trace
+
+#  0 0x00007ffff3c73bd6 '<unknown (@0x7ffff3c73bd6)>'
+#  1 0x00007ffff6c5df00 '<unknown (@0x7ffff6c5df00)>'
+#  2 0x00007ffff6c5f4b3 '<unknown (@0x7ffff6c5f4b3)>'
+#  3 0x00007ffff578afbe '<unknown (@0x7ffff578afbe)>'
+#  4 0x0000000002033a0c '<unknown (@0x2033a0c)>'
+#  5 0x00000000032b158b '<unknown (@0x32b158b)>'
+#  6 0x000000000327287c '<unknown (@0x327287c)>'
+#  7 0x0000000003237b06 '<unknown (@0x3237b06)>'
+#  8 0x00000000031ba4c7 '<unknown (@0x31ba4c7)>'
+#  9 0x00000000031bbbd1 '<unknown (@0x31bbbd1)>'
+# 10 0x00000000031bbf16 '<unknown (@0x31bbf16)>'
+# 11 0x00000000031bbf3d '<unknown (@0x31bbf3d)>'
+# 12 0x00000000031bc2eb '<unknown (@0x31bc2eb)>'
+# 13 0x000000000190b466 '<unknown (@0x190b466)>'
+# 14 0x0000000001910920 '<unknown (@0x1910920)>'
+# 15 0x0000000000e1b781 '<unknown (@0xe1b781)>'
+# 16 0x0000000000e1c112 '<unknown (@0xe1c112)>'
+# 17 0x00007ffff6c4232d '<unknown (@0x7ffff6c4232d)>'
+# 18 0x00007ffff59b4e72 '<unknown (@0x7ffff59b4e72)>'
+# 19 0x00007ffff59b7824 '<unknown (@0x7ffff59b7824)>'
+# 20 0x00007ffff5b2dd62 '<unknown (@0x7ffff5b2dd62)>'
+# 21 0x00007ffff5b353d1 '<unknown (@0x7ffff5b353d1)>'
+# 22 0x00007ffff59f9c5e '<unknown (@0x7ffff59f9c5e)>'
+# 23 0x00007ffff59bae8f '<unknown (@0x7ffff59bae8f)>'
+# 24 0x00007ffff59c2349 '<unknown (@0x7ffff59c2349)>'
+# 25 0x00007ffff6c0e12a '<unknown (@0x7ffff6c0e12a)>'
+# 26 0x00007ffff59c0ee0 '<unknown (@0x7ffff59c0ee0)>'
+# 27 0x00007ffff5a12c50 '<unknown (@0x7ffff5a12c50)>'
+# 28 0x00007ffff5a151e5 '<unknown (@0x7ffff5a151e5)>'
+# 29 0x00007ffff59bae8f '<unknown (@0x7ffff59bae8f)>'
+# 30 0x00007ffff6c0e12a '<unknown (@0x7ffff6c0e12a)>'
+# 31 0x00007ffff6198cf7 '<unknown (@0x7ffff6198cf7)>'
+# 32 0x00007ffff617013c '<unknown (@0x7ffff617013c)>'
+# 33 0x00007ffff578afd3 '<unknown (@0x7ffff578afd3)>'
+# 34 0x00007ffff6c0ccab '<unknown (@0x7ffff6c0ccab)>'
+# 35 0x0000000002033b22 '<unknown (@0x2033b22)>'
+# 36 0x00000000032b158b '<unknown (@0x32b158b)>'
+# 37 0x000000000327287c '<unknown (@0x327287c)>'
+# 38 0x0000000003237b06 '<unknown (@0x3237b06)>'
+# 39 0x00000000031ba4c7 '<unknown (@0x31ba4c7)>'
+# 40 0x00000000031bbbd1 '<unknown (@0x31bbbd1)>'
+# 41 0x00000000031bbf16 '<unknown (@0x31bbf16)>'
+# 42 0x0000000001912960 '<unknown (@0x1912960)>'
+# 43 0x000000000112b4d4 '<unknown (@0x112b4d4)>'
+# 44 0x00000000031ba4c7 '<unknown (@0x31ba4c7)>'
+# 45 0x00000000031bbbd1 '<unknown (@0x31bbbd1)>'
+# 46 0x00000000031bbf16 '<unknown (@0x31bbf16)>'
+# 47 0x00000000031bbf3d '<unknown (@0x31bbf3d)>'
+# 48 0x00000000020320f8 '<unknown (@0x20320f8)>'
+# 49 0x000000000203214e '<unknown (@0x203214e)>'
+# 50 0x00000000015996a6 '<unknown (@0x15996a6)>'
+# 51 0x000000000159bb87 '<unknown (@0x159bb87)>'
+# 52 0x00000000015a230a '<unknown (@0x15a230a)>'
+# 53 0x00007ffff59faaeb '<unknown (@0x7ffff59faaeb)>'
+# 54 0x00007ffff5aa31ce '<unknown (@0x7ffff5aa31ce)>'
+# 55 0x00007ffff59bae8f '<unknown (@0x7ffff59bae8f)>'
+# 56 0x00007ffff59c247e '<unknown (@0x7ffff59c247e)>'
+# 57 0x00007ffff6c0e12a '<unknown (@0x7ffff6c0e12a)>'
+# 58 0x00007ffff5a15254 '<unknown (@0x7ffff5a15254)>'
+# 59 0x00007ffff59bae8f '<unknown (@0x7ffff59bae8f)>'
+# 60 0x00007ffff6c0e12a '<unknown (@0x7ffff6c0e12a)>'
+# 61 0x00007ffff6195112 '<unknown (@0x7ffff6195112)>'
+# 62 0x00007ffff617013c '<unknown (@0x7ffff617013c)>'
+# 63 0x00007ffff578afd3 '<unknown (@0x7ffff578afd3)>'
+# 64 0x00007ffff6c0ccab '<unknown (@0x7ffff6c0ccab)>'
+# 65 0x0000000002033b22 '<unknown (@0x2033b22)>'
+# 66 0x00000000032b158b '<unknown (@0x32b158b)>'
+# 67 0x000000000327287c '<unknown (@0x327287c)>'
+# Current time Tue Feb 24 20:36:46 2026
+# Program = hdlclient
+# Id = "2024.2"
+# Version = "2024.05"
+# Date = "May 20 2024"
+# Platform = "linux_x86_64"
+# Signature = 559b996fef614899ed381dffdfbe94d0
+# End of Stack Trace
+
+# Current time Thu Feb 26 00:42:48 2026
+# Program = hdlclient
+# Id = "2024.2"
+# Version = "2024.05"
+# Date = "May 20 2024"
+# Platform = "linux_x86_64"
+# Signature = 559b996fef614899ed381dffdfbe94d0
+# lib_addresses = libc.so.6=0x00007ffff3b41000,libQt5Core.so.5=0x00007ffff6929000,libQt5XcbQpa.so.5=0x00007ffff572d000
+# End of Stack Trace
+
+#  0 0x00007ffff3c73bd6 '<unknown (@0x7ffff3c73bd6)>'
+#  1 0x00007ffff6c5df00 '<unknown (@0x7ffff6c5df00)>'
+#  2 0x00007ffff6c5f4b3 '<unknown (@0x7ffff6c5f4b3)>'
+#  3 0x00007ffff578afbe '<unknown (@0x7ffff578afbe)>'
+#  4 0x00007ffff6c0ccab '<unknown (@0x7ffff6c0ccab)>'
+#  5 0x0000000002033b22 '<unknown (@0x2033b22)>'
+#  6 0x00000000032b158b '<unknown (@0x32b158b)>'
+#  7 0x000000000327287c '<unknown (@0x327287c)>'
+# Current time Thu Feb 26 14:23:38 2026
+# Program = hdlclient
+# Id = "2024.2"
+# Version = "2024.05"
+# Date = "May 20 2024"
+# Platform = "linux_x86_64"
+# Signature = 559b996fef614899ed381dffdfbe94d0
+# lib_addresses = libc.so.6=0x00007ffff3b41000,libQt5Core.so.5=0x00007ffff6929000,libQt5XcbQpa.so.5=0x00007ffff572d000
+# End of Stack Trace
+
+#  0 0x00007ffff3c73bd6 '<unknown (@0x7ffff3c73bd6)>'
+#  1 0x00007ffff6c5df00 '<unknown (@0x7ffff6c5df00)>'
+#  2 0x00007ffff6c5f4b3 '<unknown (@0x7ffff6c5f4b3)>'
+#  3 0x00007ffff578afbe '<unknown (@0x7ffff578afbe)>'
+#  4 0x00007ffff6c0ccab '<unknown (@0x7ffff6c0ccab)>'
+#  5 0x0000000002033b22 '<unknown (@0x2033b22)>'
+#  6 0x00000000032b158b '<unknown (@0x32b158b)>'
+#  7 0x000000000327287c '<unknown (@0x327287c)>'
+# Current time Fri Feb 27 14:57:50 2026
+# Program = hdlclient
+# Id = "2024.2"
+# Version = "2024.05"
+# Date = "May 20 2024"
+# Platform = "linux_x86_64"
+# Signature = 559b996fef614899ed381dffdfbe94d0
+# lib_addresses = libc.so.6=0x00007ffff3b41000,libQt5Core.so.5=0x00007ffff6929000,libQt5XcbQpa.so.5=0x00007ffff572d000
+# End of Stack Trace
+
+#  0 0x00007ffff3c73bd6 '<unknown (@0x7ffff3c73bd6)>'
+#  1 0x00007ffff6c5df00 '<unknown (@0x7ffff6c5df00)>'
+#  2 0x00007ffff6c5f4b3 '<unknown (@0x7ffff6c5f4b3)>'
+#  3 0x00007ffff578afbe '<unknown (@0x7ffff578afbe)>'
+#  4 0x00007ffff6c0ccab '<unknown (@0x7ffff6c0ccab)>'
+#  5 0x0000000002033b22 '<unknown (@0x2033b22)>'
+#  6 0x00000000032b158b '<unknown (@0x32b158b)>'
+#  7 0x000000000327287c '<unknown (@0x327287c)>'

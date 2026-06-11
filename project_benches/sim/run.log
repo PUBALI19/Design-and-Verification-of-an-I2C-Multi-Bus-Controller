@@ -1,0 +1,603 @@
+# VISUALIZERROOT = '/mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux_x86_64/VisualizerRls'
+# USER = 'proy9'
+# Siemens software version 2024.2 (Build on May 20 2024)
+# Unpublished work. Copyright 2026 Siemens
+
+# vsim -64 -onfinish stop -classdebug -uvmcontrol=all -msgmode both -permit_unmatched_virtual_intf -sv_seed 123456 -msglimit error -msglimitcount 20 -qwavedb=+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc -lib qrun.out/work -visualizer=design.bin -do {set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb; do wave.do} -statslog qrun.out/stats_log qrun_opt -appendlog -l run.log
+# vsim -64 -onfinish stop -classdebug -uvmcontrol=all -msgmode both -permit_unmatched_virtual_intf -sv_seed 123456 -msglimit error -msglimitcount 20 -qwavedb=+livesim+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc -lib qrun.out/work -visualizer=design.bin -statslog qrun.out/stats_log qrun_opt -appendlog "+no_qwavedb_threading" 
+# Start time: 21:12:49 on Apr 25,2026
+# Loading Siemens Visualizer shared object '/mnt/apps/public/COE/mg_apps/questa2024.2/questasim/bin/../linux_x86_64/VisualizerRls/bin/libqvisualizer.so'
+
+# Initiating qwavedb class logging
+
+
+# Done initiating qwavedb class logging
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.i2c_if(fast)
+# Loading work.wb_if(fast)
+# Loading work.ncsu_pkg(fast)
+# Loading work.i2c_pkg(fast)
+# Loading work.wb_pkg(fast)
+# Loading work.i2cmb_env_pkg(fast)
+# Loading work.top(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.iicmb_pkg(body)
+# Loading work.iicmb_m_wb(str)#1
+# Loading work.iicmb_int_pkg(body)
+# Loading work.iicmb_m(str)#1
+
+# 21:12:55: Loading design data...
+# 21:12:55: Loaded  design units
+# 21:12:55: Loaded  design hierarchy
+# Warning: The wave file cannot be loaded because either the simulation has not yet logged any data, or qwavedb logging has not been enabled.
+# set IterationLimit 140000
+# 140000
+# set NoQuitOnFinish 1
+# 1
+# coverage attribute -name TESTNAME -value test_top
+
+# coverage save -onexit test_top.ucdb
+
+# do wave.do
+# 21:12:59: Loading waveform header...
+# 21:12:59: Loaded  waveform header
+# Static tasks and functions will be logged.
+# Qwave threading will not be used.
+# 	Arrays of 1 unpacked dimension inside classes will be logged if they have 1024 or fewer elements
+# qwavedb_dumpvars: Initiating qwavedb class logging
+# 
+# 	Loading class filter file '/mnt/apps/public/COE/mg_apps/questa2024.2/questasim/bin/../linux_x86_64/VisualizerRls/bin/../config/uvmclassfilter.txt'
+# 
+# qwavedb_dumpvars: Done initiating qwavedb class logging
+# 	Arrays of 1 unpacked dimension will be logged if they have 1024 or fewer elements
+# qwavedb_dumpvars: Initiating qwavedb waveform capturing
+# 
+# 	 Class Filter File used = /mnt/apps/public/COE/mg_apps/questa2024.2/questasim/bin/../linux_x86_64/VisualizerRls/bin/../config/uvmclassfilter.txt
+# Info: Enabling parallel (multi-threaded) wave dumping.
+# 
+# qwavedb_dumpvars: Done initiating qwavedb waveform capturing
+# 
+
+run -all
+# ----------------------------------------------------------------
+# //  NCSU Package 
+# //  Version 1.0a
+# ----------------------------------------------------------------
+# 
+# 
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test.environment called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test.environment.wb_agent called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test.environment.wb_agent.driver called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test.environment.wb_agent.monitor called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test.environment.i2c_agent called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test.environment.i2c_agent.driver called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test.environment.i2c_agent.monitor called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test.environment.predictor called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test.environment.scoreboard called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test.environment.coverage called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test.generator called
+# 
+# ========================================
+# TEST BEGIN
+# ========================================
+# 
+# --- Phase 1: 32 Fixed Writes ---
+# NCSU_INFO:Time             40807500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x00 
+# NCSU_INFO:Time             60691500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x01 
+# NCSU_INFO:Time             80575500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x02 
+# NCSU_INFO:Time            100459500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x03 
+# NCSU_INFO:Time            120343500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x04 
+# NCSU_INFO:Time            140227500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x05 
+# NCSU_INFO:Time            160111500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x06 
+# NCSU_INFO:Time            179995500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x07 
+# NCSU_INFO:Time            199879500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x08 
+# NCSU_INFO:Time            219763500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x09 
+# NCSU_INFO:Time            239647500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x0a 
+# NCSU_INFO:Time            259531500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x0b 
+# NCSU_INFO:Time            279415500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x0c 
+# NCSU_INFO:Time            299299500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x0d 
+# NCSU_INFO:Time            319183500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x0e 
+# NCSU_INFO:Time            339067500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x0f 
+# NCSU_INFO:Time            358951500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x10 
+# NCSU_INFO:Time            378835500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x11 
+# NCSU_INFO:Time            398719500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x12 
+# NCSU_INFO:Time            418603500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x13 
+# NCSU_INFO:Time            438487500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x14 
+# NCSU_INFO:Time            458371500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x15 
+# NCSU_INFO:Time            478255500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x16 
+# NCSU_INFO:Time            498139500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x17 
+# NCSU_INFO:Time            518023500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x18 
+# NCSU_INFO:Time            537907500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x19 
+# NCSU_INFO:Time            557791500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x1a 
+# NCSU_INFO:Time            577675500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x1b 
+# NCSU_INFO:Time            597559500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x1c 
+# NCSU_INFO:Time            617443500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x1d 
+# NCSU_INFO:Time            637327500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x1e 
+# NCSU_INFO:Time            657211500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x1f 
+# --- Phase 2: 32 Fixed Reads ---
+# NCSU_INFO:Time            677100500:: PASS [op:I2C_READ] Addr:0x22 Data:0x64 
+# NCSU_INFO:Time            696989500:: PASS [op:I2C_READ] Addr:0x22 Data:0x65 
+# NCSU_INFO:Time            716878500:: PASS [op:I2C_READ] Addr:0x22 Data:0x66 
+# NCSU_INFO:Time            736767500:: PASS [op:I2C_READ] Addr:0x22 Data:0x67 
+# NCSU_INFO:Time            756656500:: PASS [op:I2C_READ] Addr:0x22 Data:0x68 
+# NCSU_INFO:Time            776545500:: PASS [op:I2C_READ] Addr:0x22 Data:0x69 
+# NCSU_INFO:Time            796434500:: PASS [op:I2C_READ] Addr:0x22 Data:0x6a 
+# NCSU_INFO:Time            816323500:: PASS [op:I2C_READ] Addr:0x22 Data:0x6b 
+# NCSU_INFO:Time            836212500:: PASS [op:I2C_READ] Addr:0x22 Data:0x6c 
+# NCSU_INFO:Time            856101500:: PASS [op:I2C_READ] Addr:0x22 Data:0x6d 
+# NCSU_INFO:Time            875990500:: PASS [op:I2C_READ] Addr:0x22 Data:0x6e 
+# NCSU_INFO:Time            895879500:: PASS [op:I2C_READ] Addr:0x22 Data:0x6f 
+# NCSU_INFO:Time            915768500:: PASS [op:I2C_READ] Addr:0x22 Data:0x70 
+# NCSU_INFO:Time            935657500:: PASS [op:I2C_READ] Addr:0x22 Data:0x71 
+# NCSU_INFO:Time            955546500:: PASS [op:I2C_READ] Addr:0x22 Data:0x72 
+# NCSU_INFO:Time            975435500:: PASS [op:I2C_READ] Addr:0x22 Data:0x73 
+# NCSU_INFO:Time            995324500:: PASS [op:I2C_READ] Addr:0x22 Data:0x74 
+# NCSU_INFO:Time           1015213500:: PASS [op:I2C_READ] Addr:0x22 Data:0x75 
+# NCSU_INFO:Time           1035102500:: PASS [op:I2C_READ] Addr:0x22 Data:0x76 
+# NCSU_INFO:Time           1054991500:: PASS [op:I2C_READ] Addr:0x22 Data:0x77 
+# NCSU_INFO:Time           1074880500:: PASS [op:I2C_READ] Addr:0x22 Data:0x78 
+# NCSU_INFO:Time           1094769500:: PASS [op:I2C_READ] Addr:0x22 Data:0x79 
+# NCSU_INFO:Time           1114658500:: PASS [op:I2C_READ] Addr:0x22 Data:0x7a 
+# NCSU_INFO:Time           1134547500:: PASS [op:I2C_READ] Addr:0x22 Data:0x7b 
+# NCSU_INFO:Time           1154436500:: PASS [op:I2C_READ] Addr:0x22 Data:0x7c 
+# NCSU_INFO:Time           1174325500:: PASS [op:I2C_READ] Addr:0x22 Data:0x7d 
+# NCSU_INFO:Time           1194214500:: PASS [op:I2C_READ] Addr:0x22 Data:0x7e 
+# NCSU_INFO:Time           1214103500:: PASS [op:I2C_READ] Addr:0x22 Data:0x7f 
+# NCSU_INFO:Time           1233992500:: PASS [op:I2C_READ] Addr:0x22 Data:0x80 
+# NCSU_INFO:Time           1253881500:: PASS [op:I2C_READ] Addr:0x22 Data:0x81 
+# NCSU_INFO:Time           1273770500:: PASS [op:I2C_READ] Addr:0x22 Data:0x82 
+# NCSU_INFO:Time           1293659500:: PASS [op:I2C_READ] Addr:0x22 Data:0x83 
+# --- Phase 3: 128 Fixed Alternating Write/Read ---
+# NCSU_INFO:Time           1313543500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x40 
+# NCSU_INFO:Time           1333432500:: PASS [op:I2C_READ] Addr:0x22 Data:0x3f 
+# NCSU_INFO:Time           1353316500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x41 
+# NCSU_INFO:Time           1373205500:: PASS [op:I2C_READ] Addr:0x22 Data:0x3e 
+# NCSU_INFO:Time           1393089500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x42 
+# NCSU_INFO:Time           1412978500:: PASS [op:I2C_READ] Addr:0x22 Data:0x3d 
+# NCSU_INFO:Time           1432862500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x43 
+# NCSU_INFO:Time           1452751500:: PASS [op:I2C_READ] Addr:0x22 Data:0x3c 
+# NCSU_INFO:Time           1472635500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x44 
+# NCSU_INFO:Time           1492524500:: PASS [op:I2C_READ] Addr:0x22 Data:0x3b 
+# NCSU_INFO:Time           1512408500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x45 
+# NCSU_INFO:Time           1532297500:: PASS [op:I2C_READ] Addr:0x22 Data:0x3a 
+# NCSU_INFO:Time           1552181500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x46 
+# NCSU_INFO:Time           1572070500:: PASS [op:I2C_READ] Addr:0x22 Data:0x39 
+# NCSU_INFO:Time           1591954500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x47 
+# NCSU_INFO:Time           1611843500:: PASS [op:I2C_READ] Addr:0x22 Data:0x38 
+# NCSU_INFO:Time           1631727500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x48 
+# NCSU_INFO:Time           1651616500:: PASS [op:I2C_READ] Addr:0x22 Data:0x37 
+# NCSU_INFO:Time           1671500500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x49 
+# NCSU_INFO:Time           1691389500:: PASS [op:I2C_READ] Addr:0x22 Data:0x36 
+# NCSU_INFO:Time           1711273500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x4a 
+# NCSU_INFO:Time           1731162500:: PASS [op:I2C_READ] Addr:0x22 Data:0x35 
+# NCSU_INFO:Time           1751046500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x4b 
+# NCSU_INFO:Time           1770935500:: PASS [op:I2C_READ] Addr:0x22 Data:0x34 
+# NCSU_INFO:Time           1790819500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x4c 
+# NCSU_INFO:Time           1810708500:: PASS [op:I2C_READ] Addr:0x22 Data:0x33 
+# NCSU_INFO:Time           1830592500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x4d 
+# NCSU_INFO:Time           1850481500:: PASS [op:I2C_READ] Addr:0x22 Data:0x32 
+# NCSU_INFO:Time           1870365500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x4e 
+# NCSU_INFO:Time           1890254500:: PASS [op:I2C_READ] Addr:0x22 Data:0x31 
+# NCSU_INFO:Time           1910138500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x4f 
+# NCSU_INFO:Time           1930027500:: PASS [op:I2C_READ] Addr:0x22 Data:0x30 
+# NCSU_INFO:Time           1949911500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x50 
+# NCSU_INFO:Time           1969800500:: PASS [op:I2C_READ] Addr:0x22 Data:0x2f 
+# NCSU_INFO:Time           1989684500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x51 
+# NCSU_INFO:Time           2009573500:: PASS [op:I2C_READ] Addr:0x22 Data:0x2e 
+# NCSU_INFO:Time           2029457500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x52 
+# NCSU_INFO:Time           2049346500:: PASS [op:I2C_READ] Addr:0x22 Data:0x2d 
+# NCSU_INFO:Time           2069230500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x53 
+# NCSU_INFO:Time           2089119500:: PASS [op:I2C_READ] Addr:0x22 Data:0x2c 
+# NCSU_INFO:Time           2109003500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x54 
+# NCSU_INFO:Time           2128892500:: PASS [op:I2C_READ] Addr:0x22 Data:0x2b 
+# NCSU_INFO:Time           2148776500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x55 
+# NCSU_INFO:Time           2168665500:: PASS [op:I2C_READ] Addr:0x22 Data:0x2a 
+# NCSU_INFO:Time           2188549500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x56 
+# NCSU_INFO:Time           2208438500:: PASS [op:I2C_READ] Addr:0x22 Data:0x29 
+# NCSU_INFO:Time           2228322500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x57 
+# NCSU_INFO:Time           2248211500:: PASS [op:I2C_READ] Addr:0x22 Data:0x28 
+# NCSU_INFO:Time           2268095500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x58 
+# NCSU_INFO:Time           2287984500:: PASS [op:I2C_READ] Addr:0x22 Data:0x27 
+# NCSU_INFO:Time           2307868500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x59 
+# NCSU_INFO:Time           2327757500:: PASS [op:I2C_READ] Addr:0x22 Data:0x26 
+# NCSU_INFO:Time           2347641500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x5a 
+# NCSU_INFO:Time           2367530500:: PASS [op:I2C_READ] Addr:0x22 Data:0x25 
+# NCSU_INFO:Time           2387414500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x5b 
+# NCSU_INFO:Time           2407303500:: PASS [op:I2C_READ] Addr:0x22 Data:0x24 
+# NCSU_INFO:Time           2427187500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x5c 
+# NCSU_INFO:Time           2447076500:: PASS [op:I2C_READ] Addr:0x22 Data:0x23 
+# NCSU_INFO:Time           2466960500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x5d 
+# NCSU_INFO:Time           2486849500:: PASS [op:I2C_READ] Addr:0x22 Data:0x22 
+# NCSU_INFO:Time           2506733500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x5e 
+# NCSU_INFO:Time           2526622500:: PASS [op:I2C_READ] Addr:0x22 Data:0x21 
+# NCSU_INFO:Time           2546506500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x5f 
+# NCSU_INFO:Time           2566395500:: PASS [op:I2C_READ] Addr:0x22 Data:0x20 
+# NCSU_INFO:Time           2586279500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x60 
+# NCSU_INFO:Time           2606168500:: PASS [op:I2C_READ] Addr:0x22 Data:0x1f 
+# NCSU_INFO:Time           2626052500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x61 
+# NCSU_INFO:Time           2645941500:: PASS [op:I2C_READ] Addr:0x22 Data:0x1e 
+# NCSU_INFO:Time           2665825500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x62 
+# NCSU_INFO:Time           2685714500:: PASS [op:I2C_READ] Addr:0x22 Data:0x1d 
+# NCSU_INFO:Time           2705598500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x63 
+# NCSU_INFO:Time           2725487500:: PASS [op:I2C_READ] Addr:0x22 Data:0x1c 
+# NCSU_INFO:Time           2745371500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x64 
+# NCSU_INFO:Time           2765260500:: PASS [op:I2C_READ] Addr:0x22 Data:0x1b 
+# NCSU_INFO:Time           2785144500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x65 
+# NCSU_INFO:Time           2805033500:: PASS [op:I2C_READ] Addr:0x22 Data:0x1a 
+# NCSU_INFO:Time           2824917500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x66 
+# NCSU_INFO:Time           2844806500:: PASS [op:I2C_READ] Addr:0x22 Data:0x19 
+# NCSU_INFO:Time           2864690500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x67 
+# NCSU_INFO:Time           2884579500:: PASS [op:I2C_READ] Addr:0x22 Data:0x18 
+# NCSU_INFO:Time           2904463500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x68 
+# NCSU_INFO:Time           2924352500:: PASS [op:I2C_READ] Addr:0x22 Data:0x17 
+# NCSU_INFO:Time           2944236500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x69 
+# NCSU_INFO:Time           2964125500:: PASS [op:I2C_READ] Addr:0x22 Data:0x16 
+# NCSU_INFO:Time           2984009500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x6a 
+# NCSU_INFO:Time           3003898500:: PASS [op:I2C_READ] Addr:0x22 Data:0x15 
+# NCSU_INFO:Time           3023782500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x6b 
+# NCSU_INFO:Time           3043671500:: PASS [op:I2C_READ] Addr:0x22 Data:0x14 
+# NCSU_INFO:Time           3063555500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x6c 
+# NCSU_INFO:Time           3083444500:: PASS [op:I2C_READ] Addr:0x22 Data:0x13 
+# NCSU_INFO:Time           3103328500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x6d 
+# NCSU_INFO:Time           3123217500:: PASS [op:I2C_READ] Addr:0x22 Data:0x12 
+# NCSU_INFO:Time           3143101500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x6e 
+# NCSU_INFO:Time           3162990500:: PASS [op:I2C_READ] Addr:0x22 Data:0x11 
+# NCSU_INFO:Time           3182874500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x6f 
+# NCSU_INFO:Time           3202763500:: PASS [op:I2C_READ] Addr:0x22 Data:0x10 
+# NCSU_INFO:Time           3222647500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x70 
+# NCSU_INFO:Time           3242536500:: PASS [op:I2C_READ] Addr:0x22 Data:0x0f 
+# NCSU_INFO:Time           3262420500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x71 
+# NCSU_INFO:Time           3282309500:: PASS [op:I2C_READ] Addr:0x22 Data:0x0e 
+# NCSU_INFO:Time           3302193500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x72 
+# NCSU_INFO:Time           3322082500:: PASS [op:I2C_READ] Addr:0x22 Data:0x0d 
+# NCSU_INFO:Time           3341966500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x73 
+# NCSU_INFO:Time           3361855500:: PASS [op:I2C_READ] Addr:0x22 Data:0x0c 
+# NCSU_INFO:Time           3381739500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x74 
+# NCSU_INFO:Time           3401628500:: PASS [op:I2C_READ] Addr:0x22 Data:0x0b 
+# NCSU_INFO:Time           3421512500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x75 
+# NCSU_INFO:Time           3441401500:: PASS [op:I2C_READ] Addr:0x22 Data:0x0a 
+# NCSU_INFO:Time           3461285500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x76 
+# NCSU_INFO:Time           3481174500:: PASS [op:I2C_READ] Addr:0x22 Data:0x09 
+# NCSU_INFO:Time           3501058500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x77 
+# NCSU_INFO:Time           3520947500:: PASS [op:I2C_READ] Addr:0x22 Data:0x08 
+# NCSU_INFO:Time           3540831500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x78 
+# NCSU_INFO:Time           3560720500:: PASS [op:I2C_READ] Addr:0x22 Data:0x07 
+# NCSU_INFO:Time           3580604500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x79 
+# NCSU_INFO:Time           3600493500:: PASS [op:I2C_READ] Addr:0x22 Data:0x06 
+# NCSU_INFO:Time           3620377500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x7a 
+# NCSU_INFO:Time           3640266500:: PASS [op:I2C_READ] Addr:0x22 Data:0x05 
+# NCSU_INFO:Time           3660150500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x7b 
+# NCSU_INFO:Time           3680039500:: PASS [op:I2C_READ] Addr:0x22 Data:0x04 
+# NCSU_INFO:Time           3699923500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x7c 
+# NCSU_INFO:Time           3719812500:: PASS [op:I2C_READ] Addr:0x22 Data:0x03 
+# NCSU_INFO:Time           3739696500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x7d 
+# NCSU_INFO:Time           3759585500:: PASS [op:I2C_READ] Addr:0x22 Data:0x02 
+# NCSU_INFO:Time           3779469500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x7e 
+# NCSU_INFO:Time           3799358500:: PASS [op:I2C_READ] Addr:0x22 Data:0x01 
+# NCSU_INFO:Time           3819242500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x7f 
+# NCSU_INFO:Time           3839131500:: PASS [op:I2C_READ] Addr:0x22 Data:0x00 
+# 
+# --- Random Phase: 48 Writes ---
+# NCSU_INFO:Time           3859015500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x00 
+# NCSU_INFO:Time           3878899500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x01 
+# NCSU_INFO:Time           3898783500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x02 
+# NCSU_INFO:Time           3918667500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x03 
+# NCSU_INFO:Time           3938551500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x04 
+# NCSU_INFO:Time           3958435500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x05 
+# NCSU_INFO:Time           3978319500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x06 
+# NCSU_INFO:Time           3998203500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x07 
+# NCSU_INFO:Time           4018087500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x08 
+# NCSU_INFO:Time           4037971500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x09 
+# NCSU_INFO:Time           4057855500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x0a 
+# NCSU_INFO:Time           4077739500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x0b 
+# NCSU_INFO:Time           4097623500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x0c 
+# NCSU_INFO:Time           4117507500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x0d 
+# NCSU_INFO:Time           4137391500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x0e 
+# NCSU_INFO:Time           4157275500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x0f 
+# NCSU_INFO:Time           4177159500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x10 
+# NCSU_INFO:Time           4197043500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x11 
+# NCSU_INFO:Time           4216927500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x12 
+# NCSU_INFO:Time           4236811500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x13 
+# NCSU_INFO:Time           4256695500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x14 
+# NCSU_INFO:Time           4276579500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x15 
+# NCSU_INFO:Time           4296463500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x16 
+# NCSU_INFO:Time           4316347500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x17 
+# NCSU_INFO:Time           4336231500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x18 
+# NCSU_INFO:Time           4356115500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x19 
+# NCSU_INFO:Time           4375999500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x1a 
+# NCSU_INFO:Time           4395883500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x1b 
+# NCSU_INFO:Time           4415767500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x1c 
+# NCSU_INFO:Time           4435651500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x1d 
+# NCSU_INFO:Time           4455535500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x1e 
+# NCSU_INFO:Time           4475419500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x1f 
+# NCSU_INFO:Time           4495303500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x20 
+# NCSU_INFO:Time           4515187500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x21 
+# NCSU_INFO:Time           4535071500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x22 
+# NCSU_INFO:Time           4554955500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x23 
+# NCSU_INFO:Time           4574839500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x24 
+# NCSU_INFO:Time           4594723500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x25 
+# NCSU_INFO:Time           4614607500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x26 
+# NCSU_INFO:Time           4634491500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x27 
+# NCSU_INFO:Time           4654375500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x28 
+# NCSU_INFO:Time           4674259500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x29 
+# NCSU_INFO:Time           4694143500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x2a 
+# NCSU_INFO:Time           4714027500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x2b 
+# NCSU_INFO:Time           4733911500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x2c 
+# NCSU_INFO:Time           4753795500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x2d 
+# NCSU_INFO:Time           4773679500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x2e 
+# NCSU_INFO:Time           4793563500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x2f 
+# --- Random Phase: 40 Reads ---
+# NCSU_INFO:Time           4813452500:: PASS [op:I2C_READ] Addr:0x22 Data:0x64 
+# NCSU_INFO:Time           4833341500:: PASS [op:I2C_READ] Addr:0x22 Data:0x65 
+# NCSU_INFO:Time           4853230500:: PASS [op:I2C_READ] Addr:0x22 Data:0x66 
+# NCSU_INFO:Time           4873119500:: PASS [op:I2C_READ] Addr:0x22 Data:0x67 
+# NCSU_INFO:Time           4893008500:: PASS [op:I2C_READ] Addr:0x22 Data:0x68 
+# NCSU_INFO:Time           4912897500:: PASS [op:I2C_READ] Addr:0x22 Data:0x69 
+# NCSU_INFO:Time           4932786500:: PASS [op:I2C_READ] Addr:0x22 Data:0x6a 
+# NCSU_INFO:Time           4952675500:: PASS [op:I2C_READ] Addr:0x22 Data:0x6b 
+# NCSU_INFO:Time           4972564500:: PASS [op:I2C_READ] Addr:0x22 Data:0x6c 
+# NCSU_INFO:Time           4992453500:: PASS [op:I2C_READ] Addr:0x22 Data:0x6d 
+# NCSU_INFO:Time           5012342500:: PASS [op:I2C_READ] Addr:0x22 Data:0x6e 
+# NCSU_INFO:Time           5032231500:: PASS [op:I2C_READ] Addr:0x22 Data:0x6f 
+# NCSU_INFO:Time           5052120500:: PASS [op:I2C_READ] Addr:0x22 Data:0x70 
+# NCSU_INFO:Time           5072009500:: PASS [op:I2C_READ] Addr:0x22 Data:0x71 
+# NCSU_INFO:Time           5091898500:: PASS [op:I2C_READ] Addr:0x22 Data:0x72 
+# NCSU_INFO:Time           5111787500:: PASS [op:I2C_READ] Addr:0x22 Data:0x73 
+# NCSU_INFO:Time           5131676500:: PASS [op:I2C_READ] Addr:0x22 Data:0x74 
+# NCSU_INFO:Time           5151565500:: PASS [op:I2C_READ] Addr:0x22 Data:0x75 
+# NCSU_INFO:Time           5171454500:: PASS [op:I2C_READ] Addr:0x22 Data:0x76 
+# NCSU_INFO:Time           5191343500:: PASS [op:I2C_READ] Addr:0x22 Data:0x77 
+# NCSU_INFO:Time           5211232500:: PASS [op:I2C_READ] Addr:0x22 Data:0x78 
+# NCSU_INFO:Time           5231121500:: PASS [op:I2C_READ] Addr:0x22 Data:0x79 
+# NCSU_INFO:Time           5251010500:: PASS [op:I2C_READ] Addr:0x22 Data:0x7a 
+# NCSU_INFO:Time           5270899500:: PASS [op:I2C_READ] Addr:0x22 Data:0x7b 
+# NCSU_INFO:Time           5290788500:: PASS [op:I2C_READ] Addr:0x22 Data:0x7c 
+# NCSU_INFO:Time           5310677500:: PASS [op:I2C_READ] Addr:0x22 Data:0x7d 
+# NCSU_INFO:Time           5330566500:: PASS [op:I2C_READ] Addr:0x22 Data:0x7e 
+# NCSU_INFO:Time           5350455500:: PASS [op:I2C_READ] Addr:0x22 Data:0x7f 
+# NCSU_INFO:Time           5370344500:: PASS [op:I2C_READ] Addr:0x22 Data:0x80 
+# NCSU_INFO:Time           5390233500:: PASS [op:I2C_READ] Addr:0x22 Data:0x81 
+# NCSU_INFO:Time           5410122500:: PASS [op:I2C_READ] Addr:0x22 Data:0x82 
+# NCSU_INFO:Time           5430011500:: PASS [op:I2C_READ] Addr:0x22 Data:0x83 
+# NCSU_INFO:Time           5449900500:: PASS [op:I2C_READ] Addr:0x22 Data:0x84 
+# NCSU_INFO:Time           5469789500:: PASS [op:I2C_READ] Addr:0x22 Data:0x85 
+# NCSU_INFO:Time           5489678500:: PASS [op:I2C_READ] Addr:0x22 Data:0x86 
+# NCSU_INFO:Time           5509567500:: PASS [op:I2C_READ] Addr:0x22 Data:0x87 
+# NCSU_INFO:Time           5529456500:: PASS [op:I2C_READ] Addr:0x22 Data:0x88 
+# NCSU_INFO:Time           5549345500:: PASS [op:I2C_READ] Addr:0x22 Data:0x89 
+# NCSU_INFO:Time           5569234500:: PASS [op:I2C_READ] Addr:0x22 Data:0x8a 
+# NCSU_INFO:Time           5589123500:: PASS [op:I2C_READ] Addr:0x22 Data:0x8b 
+# --- Random Phase: 144 Alternating ---
+# NCSU_INFO:Time           5609007500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x40 
+# NCSU_INFO:Time           5628896500:: PASS [op:I2C_READ] Addr:0x22 Data:0x3f 
+# NCSU_INFO:Time           5648780500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x41 
+# NCSU_INFO:Time           5668669500:: PASS [op:I2C_READ] Addr:0x22 Data:0x3e 
+# NCSU_INFO:Time           5688553500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x42 
+# NCSU_INFO:Time           5708442500:: PASS [op:I2C_READ] Addr:0x22 Data:0x3d 
+# NCSU_INFO:Time           5728326500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x43 
+# NCSU_INFO:Time           5748215500:: PASS [op:I2C_READ] Addr:0x22 Data:0x3c 
+# NCSU_INFO:Time           5768099500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x44 
+# NCSU_INFO:Time           5787988500:: PASS [op:I2C_READ] Addr:0x22 Data:0x3b 
+# NCSU_INFO:Time           5807872500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x45 
+# NCSU_INFO:Time           5827761500:: PASS [op:I2C_READ] Addr:0x22 Data:0x3a 
+# NCSU_INFO:Time           5847645500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x46 
+# NCSU_INFO:Time           5867534500:: PASS [op:I2C_READ] Addr:0x22 Data:0x39 
+# NCSU_INFO:Time           5887418500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x47 
+# NCSU_INFO:Time           5907307500:: PASS [op:I2C_READ] Addr:0x22 Data:0x38 
+# NCSU_INFO:Time           5927191500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x48 
+# NCSU_INFO:Time           5947080500:: PASS [op:I2C_READ] Addr:0x22 Data:0x37 
+# NCSU_INFO:Time           5966964500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x49 
+# NCSU_INFO:Time           5986853500:: PASS [op:I2C_READ] Addr:0x22 Data:0x36 
+# NCSU_INFO:Time           6006737500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x4a 
+# NCSU_INFO:Time           6026626500:: PASS [op:I2C_READ] Addr:0x22 Data:0x35 
+# NCSU_INFO:Time           6046510500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x4b 
+# NCSU_INFO:Time           6066399500:: PASS [op:I2C_READ] Addr:0x22 Data:0x34 
+# NCSU_INFO:Time           6086283500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x4c 
+# NCSU_INFO:Time           6106172500:: PASS [op:I2C_READ] Addr:0x22 Data:0x33 
+# NCSU_INFO:Time           6126056500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x4d 
+# NCSU_INFO:Time           6145945500:: PASS [op:I2C_READ] Addr:0x22 Data:0x32 
+# NCSU_INFO:Time           6165829500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x4e 
+# NCSU_INFO:Time           6185718500:: PASS [op:I2C_READ] Addr:0x22 Data:0x31 
+# NCSU_INFO:Time           6205602500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x4f 
+# NCSU_INFO:Time           6225491500:: PASS [op:I2C_READ] Addr:0x22 Data:0x30 
+# NCSU_INFO:Time           6245375500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x50 
+# NCSU_INFO:Time           6265264500:: PASS [op:I2C_READ] Addr:0x22 Data:0x2f 
+# NCSU_INFO:Time           6285148500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x51 
+# NCSU_INFO:Time           6305037500:: PASS [op:I2C_READ] Addr:0x22 Data:0x2e 
+# NCSU_INFO:Time           6324921500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x52 
+# NCSU_INFO:Time           6344810500:: PASS [op:I2C_READ] Addr:0x22 Data:0x2d 
+# NCSU_INFO:Time           6364694500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x53 
+# NCSU_INFO:Time           6384583500:: PASS [op:I2C_READ] Addr:0x22 Data:0x2c 
+# NCSU_INFO:Time           6404467500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x54 
+# NCSU_INFO:Time           6424356500:: PASS [op:I2C_READ] Addr:0x22 Data:0x2b 
+# NCSU_INFO:Time           6444240500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x55 
+# NCSU_INFO:Time           6464129500:: PASS [op:I2C_READ] Addr:0x22 Data:0x2a 
+# NCSU_INFO:Time           6484013500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x56 
+# NCSU_INFO:Time           6503902500:: PASS [op:I2C_READ] Addr:0x22 Data:0x29 
+# NCSU_INFO:Time           6523786500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x57 
+# NCSU_INFO:Time           6543675500:: PASS [op:I2C_READ] Addr:0x22 Data:0x28 
+# NCSU_INFO:Time           6563559500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x58 
+# NCSU_INFO:Time           6583448500:: PASS [op:I2C_READ] Addr:0x22 Data:0x27 
+# NCSU_INFO:Time           6603332500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x59 
+# NCSU_INFO:Time           6623221500:: PASS [op:I2C_READ] Addr:0x22 Data:0x26 
+# NCSU_INFO:Time           6643105500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x5a 
+# NCSU_INFO:Time           6662994500:: PASS [op:I2C_READ] Addr:0x22 Data:0x25 
+# NCSU_INFO:Time           6682878500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x5b 
+# NCSU_INFO:Time           6702767500:: PASS [op:I2C_READ] Addr:0x22 Data:0x24 
+# NCSU_INFO:Time           6722651500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x5c 
+# NCSU_INFO:Time           6742540500:: PASS [op:I2C_READ] Addr:0x22 Data:0x23 
+# NCSU_INFO:Time           6762424500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x5d 
+# NCSU_INFO:Time           6782313500:: PASS [op:I2C_READ] Addr:0x22 Data:0x22 
+# NCSU_INFO:Time           6802197500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x5e 
+# NCSU_INFO:Time           6822086500:: PASS [op:I2C_READ] Addr:0x22 Data:0x21 
+# NCSU_INFO:Time           6841970500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x5f 
+# NCSU_INFO:Time           6861859500:: PASS [op:I2C_READ] Addr:0x22 Data:0x20 
+# NCSU_INFO:Time           6881743500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x60 
+# NCSU_INFO:Time           6901632500:: PASS [op:I2C_READ] Addr:0x22 Data:0x1f 
+# NCSU_INFO:Time           6921516500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x61 
+# NCSU_INFO:Time           6941405500:: PASS [op:I2C_READ] Addr:0x22 Data:0x1e 
+# NCSU_INFO:Time           6961289500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x62 
+# NCSU_INFO:Time           6981178500:: PASS [op:I2C_READ] Addr:0x22 Data:0x1d 
+# NCSU_INFO:Time           7001062500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x63 
+# NCSU_INFO:Time           7020951500:: PASS [op:I2C_READ] Addr:0x22 Data:0x1c 
+# NCSU_INFO:Time           7040835500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x64 
+# NCSU_INFO:Time           7060724500:: PASS [op:I2C_READ] Addr:0x22 Data:0x1b 
+# NCSU_INFO:Time           7080608500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x65 
+# NCSU_INFO:Time           7100497500:: PASS [op:I2C_READ] Addr:0x22 Data:0x1a 
+# NCSU_INFO:Time           7120381500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x66 
+# NCSU_INFO:Time           7140270500:: PASS [op:I2C_READ] Addr:0x22 Data:0x19 
+# NCSU_INFO:Time           7160154500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x67 
+# NCSU_INFO:Time           7180043500:: PASS [op:I2C_READ] Addr:0x22 Data:0x18 
+# NCSU_INFO:Time           7199927500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x68 
+# NCSU_INFO:Time           7219816500:: PASS [op:I2C_READ] Addr:0x22 Data:0x17 
+# NCSU_INFO:Time           7239700500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x69 
+# NCSU_INFO:Time           7259589500:: PASS [op:I2C_READ] Addr:0x22 Data:0x16 
+# NCSU_INFO:Time           7279473500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x6a 
+# NCSU_INFO:Time           7299362500:: PASS [op:I2C_READ] Addr:0x22 Data:0x15 
+# NCSU_INFO:Time           7319246500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x6b 
+# NCSU_INFO:Time           7339135500:: PASS [op:I2C_READ] Addr:0x22 Data:0x14 
+# NCSU_INFO:Time           7359019500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x6c 
+# NCSU_INFO:Time           7378908500:: PASS [op:I2C_READ] Addr:0x22 Data:0x13 
+# NCSU_INFO:Time           7398792500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x6d 
+# NCSU_INFO:Time           7418681500:: PASS [op:I2C_READ] Addr:0x22 Data:0x12 
+# NCSU_INFO:Time           7438565500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x6e 
+# NCSU_INFO:Time           7458454500:: PASS [op:I2C_READ] Addr:0x22 Data:0x11 
+# NCSU_INFO:Time           7478338500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x6f 
+# NCSU_INFO:Time           7498227500:: PASS [op:I2C_READ] Addr:0x22 Data:0x10 
+# NCSU_INFO:Time           7518111500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x70 
+# NCSU_INFO:Time           7538000500:: PASS [op:I2C_READ] Addr:0x22 Data:0x0f 
+# NCSU_INFO:Time           7557884500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x71 
+# NCSU_INFO:Time           7577773500:: PASS [op:I2C_READ] Addr:0x22 Data:0x0e 
+# NCSU_INFO:Time           7597657500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x72 
+# NCSU_INFO:Time           7617546500:: PASS [op:I2C_READ] Addr:0x22 Data:0x0d 
+# NCSU_INFO:Time           7637430500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x73 
+# NCSU_INFO:Time           7657319500:: PASS [op:I2C_READ] Addr:0x22 Data:0x0c 
+# NCSU_INFO:Time           7677203500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x74 
+# NCSU_INFO:Time           7697092500:: PASS [op:I2C_READ] Addr:0x22 Data:0x0b 
+# NCSU_INFO:Time           7716976500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x75 
+# NCSU_INFO:Time           7736865500:: PASS [op:I2C_READ] Addr:0x22 Data:0x0a 
+# NCSU_INFO:Time           7756749500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x76 
+# NCSU_INFO:Time           7776638500:: PASS [op:I2C_READ] Addr:0x22 Data:0x09 
+# NCSU_INFO:Time           7796522500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x77 
+# NCSU_INFO:Time           7816411500:: PASS [op:I2C_READ] Addr:0x22 Data:0x08 
+# NCSU_INFO:Time           7836295500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x78 
+# NCSU_INFO:Time           7856184500:: PASS [op:I2C_READ] Addr:0x22 Data:0x07 
+# NCSU_INFO:Time           7876068500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x79 
+# NCSU_INFO:Time           7895957500:: PASS [op:I2C_READ] Addr:0x22 Data:0x06 
+# NCSU_INFO:Time           7915841500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x7a 
+# NCSU_INFO:Time           7935730500:: PASS [op:I2C_READ] Addr:0x22 Data:0x05 
+# NCSU_INFO:Time           7955614500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x7b 
+# NCSU_INFO:Time           7975503500:: PASS [op:I2C_READ] Addr:0x22 Data:0x04 
+# NCSU_INFO:Time           7995387500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x7c 
+# NCSU_INFO:Time           8015276500:: PASS [op:I2C_READ] Addr:0x22 Data:0x03 
+# NCSU_INFO:Time           8035160500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x7d 
+# NCSU_INFO:Time           8055049500:: PASS [op:I2C_READ] Addr:0x22 Data:0x02 
+# NCSU_INFO:Time           8074933500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x7e 
+# NCSU_INFO:Time           8094822500:: PASS [op:I2C_READ] Addr:0x22 Data:0x01 
+# NCSU_INFO:Time           8114706500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x7f 
+# NCSU_INFO:Time           8134595500:: PASS [op:I2C_READ] Addr:0x22 Data:0x00 
+# NCSU_INFO:Time           8154479500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x80 
+# NCSU_INFO:Time           8174368500:: PASS [op:I2C_READ] Addr:0x22 Data:0xff 
+# NCSU_INFO:Time           8194252500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x81 
+# NCSU_INFO:Time           8214141500:: PASS [op:I2C_READ] Addr:0x22 Data:0xfe 
+# NCSU_INFO:Time           8234025500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x82 
+# NCSU_INFO:Time           8253914500:: PASS [op:I2C_READ] Addr:0x22 Data:0xfd 
+# NCSU_INFO:Time           8273798500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x83 
+# NCSU_INFO:Time           8293687500:: PASS [op:I2C_READ] Addr:0x22 Data:0xfc 
+# NCSU_INFO:Time           8313571500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x84 
+# NCSU_INFO:Time           8333460500:: PASS [op:I2C_READ] Addr:0x22 Data:0xfb 
+# NCSU_INFO:Time           8353344500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x85 
+# NCSU_INFO:Time           8373233500:: PASS [op:I2C_READ] Addr:0x22 Data:0xfa 
+# NCSU_INFO:Time           8393117500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x86 
+# NCSU_INFO:Time           8413006500:: PASS [op:I2C_READ] Addr:0x22 Data:0xf9 
+# NCSU_INFO:Time           8432890500:: PASS [op:I2C_WRITE] Addr:0x22 Data:0x87 
+# NCSU_INFO:Time           8452779500:: PASS [op:I2C_READ] Addr:0x22 Data:0xf8 
+# 
+# --- Directed Tests ---
+#   [1] DPR high-value reads
+# NCSU_INFO:Time           8472668500:: PASS [op:I2C_READ] Addr:0x22 Data:0x90 
+# NCSU_INFO:Time           8492557500:: PASS [op:I2C_READ] Addr:0x22 Data:0xd0 
+#   [2] WAIT command
+#   [3] NAK directed test
+# NCSU_INFO:Time           8503406500:: PASS [op:I2C_WRITE] Addr:0x79 Data:
+#   [4] Disable/re-enable DUT
+#   [5] CMDR write while E=0
+#   [6] FSMR reads
+#   [7] SET_BUS invalid bus_id
+#   [8] WAIT non-zero count
+# NCSU_INFO:Time           8613905500:: PASS [op:I2C_WRITE] Addr:0x22 Data:
+# 
+# --- RANDOM TEST PHASE ---
+#   Mode: base
+# NCSU_INFO:Time           8706066500:: PASS [op:I2C_READ] Addr:0x64 Data:0xb2 0x4b 0xfd 0x8b 0xf0 0xcf 0x7c 0x44 0x12 
+# NCSU_INFO:Time           8725955500:: PASS [op:I2C_READ] Addr:0x11 Data:0x39 
+# NCSU_INFO:Time           8809082500:: PASS [op:I2C_READ] Addr:0x0b Data:0xad 0x2a 0x5b 0x9e 0x8d 0x0f 0x86 0xb9 
+# NCSU_INFO:Time           8856071500:: PASS [op:I2C_WRITE] Addr:0x5f Data:0x8e 0x87 0xbb 0x41 
+# NCSU_INFO:Time           8930165500:: PASS [op:I2C_WRITE] Addr:0x5e Data:0x55 0xab 0xd0 0xa3 0xd3 0x0e 0x44 
+# NCSU_INFO:Time           8977156500:: PASS [op:I2C_READ] Addr:0x00 Data:0x49 0xe4 0x90 0xca 
+# NCSU_INFO:Time           8997045500:: PASS [op:I2C_READ] Addr:0x37 Data:0x57 
+# NCSU_INFO:Time           9053070500:: PASS [op:I2C_READ] Addr:0x47 Data:0x0d 0xd8 0x85 0x1c 0xdb 
+# NCSU_INFO:Time           9072954500:: PASS [op:I2C_WRITE] Addr:0x71 Data:0x18 
+# NCSU_INFO:Time           9192217500:: PASS [op:I2C_READ] Addr:0x1b Data:0x6b 0xd8 0xe1 0xfc 0x58 0xbf 0x4b 0x02 0x30 0x02 0xa0 0x46 
+# NCSU_INFO:Time           9293412500:: PASS [op:I2C_READ] Addr:0x24 Data:0xe8 0x42 0x39 0xee 0x86 0xa4 0x7c 0x80 0xe3 0xb9 
+# NCSU_INFO:Time           9313296500:: PASS [op:I2C_WRITE] Addr:0x4d Data:0x5a 
+# NCSU_INFO:Time           9396423500:: PASS [op:I2C_READ] Addr:0x58 Data:0x7f 0xe7 0x55 0x25 0x0b 0x7e 0x43 0xdc 
+# NCSU_INFO:Time           9479552500:: PASS [op:I2C_WRITE] Addr:0x2b Data:0x75 0xbd 0x16 0x1b 0x49 0xe9 0xd6 0x33 
+# NCSU_INFO:Time           9589781500:: PASS [op:I2C_READ] Addr:0x30 Data:0xf7 0x13 0x77 0x2b 0x33 0x8a 0xed 0x9b 0x93 0xf7 0xac 
+# NCSU_INFO:Time           9700010500:: PASS [op:I2C_READ] Addr:0x52 Data:0x4c 0xba 0x41 0xa1 0xdb 0xd2 0x47 0x57 0xec 0xe2 0xd8 
+# NCSU_INFO:Time           9719899500:: PASS [op:I2C_READ] Addr:0x4b Data:0x30 
+# NCSU_INFO:Time           9803026500:: PASS [op:I2C_READ] Addr:0x0d Data:0x96 0xe9 0x0b 0xde 0x9c 0xed 0x60 0xae 
+# NCSU_INFO:Time           9822910500:: PASS [op:I2C_WRITE] Addr:0x19 Data:0xc5 
+# NCSU_INFO:Time           9842794500:: PASS [op:I2C_WRITE] Addr:0x74 Data:0xf2 
+# NCSU_INFO:Time           9862683500:: PASS [op:I2C_READ] Addr:0x3b Data:0xae 
+# NCSU_INFO:Time           9909672500:: PASS [op:I2C_WRITE] Addr:0x5d Data:0x42 0x2f 0x72 0xf7 
+# NCSU_INFO:Time           9992799500:: PASS [op:I2C_READ] Addr:0x29 Data:0x1a 0x75 0x79 0xbb 0xc1 0x06 0x42 0xa8 
+# NCSU_INFO:Time          10057858500:: PASS [op:I2C_WRITE] Addr:0x57 Data:0x6f 0x95 0x69 0xbb 0x32 0xac 
+# NCSU_INFO:Time          10177121500:: PASS [op:I2C_READ] Addr:0x55 Data:0x4d 0xec 0x8d 0x86 0x89 0x9f 0xf5 0x84 0xe4 0xe4 0x4e 0xed 
+# NCSU_INFO:Time          10260250500:: PASS [op:I2C_WRITE] Addr:0x4e Data:0xf6 0x8d 0x36 0xe1 0x8c 0x90 0xc9 0x69 
+# NCSU_INFO:Time          10361449500:: PASS [op:I2C_WRITE] Addr:0x05 Data:0x6c 0xea 0x42 0xdd 0x29 0x76 0xe8 0xb6 0x48 0xae 
+# NCSU_INFO:Time          10444578500:: PASS [op:I2C_WRITE] Addr:0x7f Data:0x2f 0x02 0xfa 0xed 0x10 0x35 0x54 0x8a 
+# NCSU_INFO:Time          10518672500:: PASS [op:I2C_WRITE] Addr:0x59 Data:0xd4 0x23 0x10 0xbb 0x00 0xe2 0x1a 
+# NCSU_INFO:Time          10619871500:: PASS [op:I2C_WRITE] Addr:0x73 Data:0xfe 0x15 0x1b 0x7f 0xc4 0xb1 0x5d 0xb4 0xcd 0xce 
+# NCSU_INFO:Time          10730100500:: PASS [op:I2C_READ] Addr:0x37 Data:0xb7 0x14 0x4a 0x8e 0x3b 0x20 0xe9 0x7e 0xd9 0x5c 0x47 
+# NCSU_INFO:Time          10759023500:: PASS [op:I2C_READ] Addr:0x4e Data:0x3e 0x0e 
+# NCSU_INFO:Time          10778907500:: PASS [op:I2C_WRITE] Addr:0x6b Data:0x23 
+# NCSU_INFO:Time          10880106500:: PASS [op:I2C_WRITE] Addr:0x40 Data:0x2c 0x61 0x04 0x57 0x16 0xd5 0x2e 0xa1 0xdf 0x7c 
+# NCSU_INFO:Time          10999375500:: PASS [op:I2C_WRITE] Addr:0x79 Data:0x92 0xdb 0x1c 0x0e 0xff 0xab 0x71 0x10 0x19 0x8b 0x6d 0x6f 
+# NCSU_INFO:Time          11019264500:: PASS [op:I2C_READ] Addr:0x4d Data:0xbf 
+# NCSU_INFO:Time          11138533500:: PASS [op:I2C_WRITE] Addr:0x5b Data:0xb0 0x52 0xec 0x19 0x91 0xc2 0x60 0xfa 0xe0 0x21 0x6b 0xa9 
+# NCSU_INFO:Time          11167452500:: PASS [op:I2C_WRITE] Addr:0x73 Data:0x5d 0x0a 
+# NCSU_INFO:Time          11268651500:: PASS [op:I2C_WRITE] Addr:0x30 Data:0x01 0x6f 0x97 0x91 0x9f 0x72 0x9c 0xd6 0xfe 0x45 
+# 
+# ========================================
+# TEST COMPLETE: base
+# ========================================
+# 
+#####################################################
+# FINAL i2cmb_scoreboard REPORT
+#   Transactions PASSED : 467
+#   Transactions FAILED : 1
+#   RESULT : TEST FAILED
+#####################################################
+# ** Note: $finish    : ../testbench/top.sv(147)
+#    Time: 112686705 ns  Iteration: 0  Instance: .top
+# Stopped at ../testbench/top.sv line 147
+# Break in Module top at ../testbench/top.sv line 147

@@ -1,0 +1,78 @@
+Sun Apr 05 14:43:07 EDT 2026
+Trace back: can't read "new_layout": no such variable
+    while executing
+"mti_error_message "2)An error occured loading layout $new_layout.\n$::errorInfo""
+    (procedure "Layout::LayoutMaximize" line 14)
+    invoked from within
+"Layout::LayoutMaximize "
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::MaximizeWindow" body line 8)
+    invoked from within
+"::.windowmgr MaximizeWindow .main_pane.transcript"
+    ("after" script)
+  <2:/mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/tk8.6/bgerror.tcl:106: ::tkerror {can't read "new_layout": no such variable}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "new_layout": no such variable}
+Sun Apr 05 15:00:48 EDT 2026
+Trace back: can't read "new_layout": no such variable
+    while executing
+"mti_error_message "2)An error occured loading layout $new_layout.\n$::errorInfo""
+    (procedure "Layout::LayoutMaximize" line 14)
+    invoked from within
+"Layout::LayoutMaximize "
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::MaximizeWindow" body line 8)
+    invoked from within
+"::.windowmgr MaximizeWindow .main_pane.tracker"
+    ("after" script)
+  <2:/mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/tk8.6/bgerror.tcl:106: ::tkerror {can't read "new_layout": no such variable}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "new_layout": no such variable}
+Sun Apr 05 18:05:22 EDT 2026
+Trace back: can't read "new_layout": no such variable
+    while executing
+"mti_error_message "2)An error occured loading layout $new_layout.\n$::errorInfo""
+    (procedure "Layout::LayoutMaximize" line 14)
+    invoked from within
+"Layout::LayoutMaximize "
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::MaximizeWindow" body line 8)
+    invoked from within
+"::.windowmgr MaximizeWindow .main_pane.files"
+    ("after" script)
+  <2:/mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/tk8.6/bgerror.tcl:106: ::tkerror {can't read "new_layout": no such variable}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "new_layout": no such variable}
+Sun Apr 05 20:00:59 EDT 2026
+Trace back: can't read "new_layout": no such variable
+    while executing
+"mti_error_message "2)An error occured loading layout $new_layout.\n$::errorInfo""
+    (procedure "Layout::LayoutMaximize" line 14)
+    invoked from within
+"Layout::LayoutMaximize "
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::MaximizeWindow" body line 8)
+    invoked from within
+"::.windowmgr MaximizeWindow .main_pane.files"
+    ("after" script)
+  <2:/mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/tk8.6/bgerror.tcl:106: ::tkerror {can't read "new_layout": no such variable}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "new_layout": no such variable}
+Sun Apr 05 20:19:45 EDT 2026
+Trace back: can't read "new_layout": no such variable
+    while executing
+"mti_error_message "2)An error occured loading layout $new_layout.\n$::errorInfo""
+    (procedure "Layout::LayoutMaximize" line 14)
+    invoked from within
+"Layout::LayoutMaximize "
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::MaximizeWindow" body line 8)
+    invoked from within
+"::.windowmgr MaximizeWindow .main_pane.files"
+    ("after" script)
+  <2:/mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/tk8.6/bgerror.tcl:106: ::tkerror {can't read "new_layout": no such variable}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "new_layout": no such variable}
+Sun Apr 05 20:33:36 EDT 2026
+Trace back: can't read "new_layout": no such variable
+    while executing
+"mti_error_message "2)An error occured loading layout $new_layout.\n$::errorInfo""
+    (procedure "Layout::LayoutMaximize" line 14)
+    invoked from within
+"Layout::LayoutMaximize "
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::MaximizeWindow" body line 8)
+    invoked from within
+"::.windowmgr MaximizeWindow .main_pane.files"
+    ("after" script)
+  <2:/mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/tk8.6/bgerror.tcl:106: ::tkerror {can't read "new_layout": no such variable}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "new_layout": no such variable}

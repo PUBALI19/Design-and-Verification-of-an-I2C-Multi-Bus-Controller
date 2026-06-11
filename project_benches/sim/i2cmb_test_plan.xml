@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Pubali Roy</Author>
+  <LastAuthor>Pubali Roy</LastAuthor>
+  <Created>2026-04-05T20:10:35Z</Created>
+  <LastSaved>2026-04-06T00:12:32Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11500</WindowHeight>
+  <WindowWidth>19420</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Font ss:FontName="Arial" ss:Size="16" ss:Bold="1" ss:Italic="1"
+    ss:Underline="Single"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="14" ss:Bold="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="25" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="115"/>
+   <Column ss:AutoFitWidth="0" ss:Width="191.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="141.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="223.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="119"/>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Verification Plan for i2cmb Layered Testbench</Data></Cell>
+   </Row>
+   <Row ss:Height="15"/>
+   <Row ss:Height="18.5">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">#</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Section</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Link</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Weight</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Goal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.5">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Register Testing</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="152">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">1.1</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">WB Coverage Covergroup</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Top-level covergroup in &#10;wb_agent monitoring all Wishbone &#10;register accesses. &#10;It captures register address,&#10; read/write direction, &#10;and data patterns on &#10;CSR/DPR/CMDR. </Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">wb_coverage_cg</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CoverGroup</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="106.5">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">1.2</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CSR Write Permissions</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">This verifies that only E and&#10; IE bits are writable in CSR; &#10;BB, BC, Bus_ID are read-only.&#10;Here Read Only fields may be &#10;accidentally writable &#10;allowing software to corrupt &#10;status.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">wb_coverage_cg::cp_control_status_reg_e_bit</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coverpoint</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="146">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">1.3</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CSR Default Values</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">This verifies CSR register &#10;reset or default values:&#10; E=0, IE=0, BB=0, BC=0, &#10;Bus_ID=0000. &#10;Here the reset logic &#10;may not initialize all &#10;fields; Bus_ID field may &#10;default to non-zero.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">wb_coverage_cg::cp_control_status_reg_e_bit</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coverpoint</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150.5">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">1.4</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CMDR Command Code Coverage</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">This verifies that all seven CMDR CMD field encodings [2:0] are exercised: Wait=000, Write=001, Rd_Ack=010, Rd_Nak=011, Start=100, Stop=101, Set_Bus=110. The bug risk involved here is that unused command encodings may map to unintended operations.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">wb_coverage_cg::cp_command_reg</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coverpoint</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="184.5">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">1.5</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">DPR Read-Back Integrity</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">This verifies that DPR register read-back returns last byte received via I2C after READ command. DPR must be stable and not change between READ_ACK/NAK completion and the next WB read. Here DPR may be overwritten or corrupted before software can read it which is not preferred.</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">wb_coverage_cg::cp_data_param_value</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coverpoint</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Functional Coverage</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="170.5">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.1</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">No-Acknowledge (NAK) Error Response</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">This verifies NAK response when slave withholds ACK: CMDR NAK bit must assert, DON must remain 0, and DUT must return to idle state cleanly. Here one should make sure that FSM doesnot hang or incorrectly set DON=1 when slave NAKs and NAK and DON doesnt simultaneously set.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">wb_coverage_cg::cp_command_reg_status</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coverpoint</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="152">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.2</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">I2C Transaction Covergroup</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">This is the top-level covergroup capturing all I2C transactions observed on the bus by the i2c_agent monitor. This verifies that the testbench observes both READ and WRITE operations across expected address and data ranges. </Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">i2cmb_op_cg</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CoverGroup</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="136.5">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.3</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">I2C Operation Type</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">This verifies that both I2C_WRITE (op=0) and I2C_READ (op=1) operations are exercised on the I2C bus. Here one should make sure that DUT doesn't generate wrong R/W bit in address byte causing slave to misidentify operation.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">i2cmb_op_cg::cp_op</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coverpoint</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="128">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.4</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">I2C Transfer Size</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">This verifies that I2C transfer sizes: 1 byte, 2-8 bytes, and &gt;8 bytes are all exercised. Here one should make sure that byte counter in mbyte FSM doesn't overflow or undercount for non-trivial transfer sizes.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">i2cmb_op_cg::cp_i2c_num_of_bytes</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coverpoint</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180.5">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.5</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">I2C Op Type x Transfer Size Cross</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Cross coverage: I2C operation type (READ/WRITE) versus transfer data size (1 byte, 2-8 bytes, &gt;8 bytes). All 6 cross bins have to be exercised. Here one has to make sure that multi-byte READ path and multi-byte WRITE path are independent logic; bugs may exist in one but not the other.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">i2cmb_op_cg::cx_op_size</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Cross</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="147.5">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.6</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Byte FSM Cover group</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">This verifies that all byte-level FSM states are entered: Idle, Wait, Start_Is_Pending, Start, Bus_Is_Taken, Write_Byte, Read_Byte, Stop, Error (per Figure 3 of I2CMB spec). Here one should keep in mind that missing transitions may prevent error recovery.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">fsm_byte_level_cg</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Covergroup</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="192">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.7</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Byte FSM State Transitions</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Transition coverage on byte FSM states sampled from FSMR[7:4]: Idle-&gt;Start, Start-&gt;Bus_Is_Taken, Bus_Is_Taken-&gt;Write_Byte, Bus_Is_Taken-&gt;Read_Byte, Write_Byte-&gt;Bus_Is_Taken, Read_Byte-&gt;Bus_Is_Taken, Bus_Is_Taken-&gt;Stop, Stop-&gt;Idle must all be hit. Here the bug risk is that illegal state transitions may corrupt ongoing transfers.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">fsm_byte_level_cg::cp_fsm_byte_level_state</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coverpoint</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="179.5">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.8</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CMDR Command x Status Cross</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Cross coverage: CMDR command code issued [2:0] versus resulting status bit asserted (DON/NAK/AL/ERR). According to i2cmb specs certain responses are only valid for certain commands. Here one needs to make sure that the wrong status bit doesn't get asserted for a given command (e.g. NAK asserted on a READ command).</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">wb_coverage_cg::cx_cmd_status</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Cross</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="74">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.9</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IRQ Assert / De-assert</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">This verifies that interrupt_request signal(irq) must assert within one clock after a command completes when IE=1. irq must de-assert within one clock after CMDR is read. </Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">wb_coverage_cg::cp_interrupt_req_state</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coverpoint</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="99.5">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.10</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">I2C Timing Covergroup</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">This the top level of I2C bus-level timing conditions generated by the DUT: initial vs repeated START conditions, STOP condition generation, and ACK/NAK responses. </Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">i2c_timing_cg</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Covergroup</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="109">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.11</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">START Condition Generation</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">This verifies that START condition (SDA falls while SCL=1) is generated correctly by the DUT. We need to cover both initial START and Repeated START (START issued when BC=1). </Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">i2c_timing_cg::cp_start_type</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coverpoint</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="87">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.12</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">STOP Condition Generation</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">This verifies that STOP condition (SDA rises while SCL=1) is generated correctly by the DUT. After STOP, BC bit in CSR must clear to 0. </Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">i2c_timing_cg::cp_stop_seen</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coverpoint</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="182.5">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.13</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACK / NAK Response Coverage</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">This verifies that  DUT correctly drives ACK (SDA=0) for READ_ACK command and correctly releases SDA for READ_NAK command (last byte). Cover bins: ACK_sent, NAK_sent. The bug risk here is that ACK/NAK polarity may be inverted in mbit Write0/Write1 state; master may always NAK or always ACK regardless of command.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">i2c_timing_cg::cp_ack_nak_sent</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coverpoint</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="211">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.14</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CSR Bus Captured x Bus Busy Cross</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Cross coverage: CSR BC bit (bit 4) versus BB bit (bit 5) across all four combinations (00,01,10,11). BC=1 requires BB=1 (cannot capture a bus that is not busy). Here one needs to be careful about the fact that BC may assert while BB=0 if bus_state.vhd busy signal is not properly connected to conditioner_mux, indicating the DUT captured a bus it does not actually own.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">wb_coverage_cg::cx_bc_bb</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Cross</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="201">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">2.15</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">DUT RTL Code Coverage</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">This ensures 100% statement and branch coverage across all DUT RTL modules: iicmb_m_wb, wishbone, regblock, iicmb_m, mbyte, mbit, conditioner_mux, bus_state, conditioner, filter. Here if one gets uncovered branches it would indicate that there are untested logic paths where the bugs can hide undetected.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">/top/DUT</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Instance</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Zoom>78</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>30</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
